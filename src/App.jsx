@@ -4,7 +4,7 @@ import MemoryGallery from "./components/MemoryGallery";
 import ProposalBox from "./components/ProposalBox";
 import RelationshipQuiz from "./components/RelationshipQuiz";
 import LoveCatchGame from "./components/LoveChallenge";
-import "./app.css";
+import "./App.css";
 export default function App() {
   const [page, setPage] = useState("box");
   const [boxOpened, setBoxOpened] = useState(false);
